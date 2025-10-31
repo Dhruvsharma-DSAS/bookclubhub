@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mansalva&family=Montez&family=Oleo+Script:wght@400;700&family=Pacifico&family=Shojumaru&family=ZCOOL+KuaiLe&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -325,4 +327,76 @@ color: antiquewhite;
 }
 h3{
     font-family:  'Cinzel Decorative', serif;;
+}
+
+/* Heading Part  */
+
+#heading1{
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 400px;
+    font-size: 40px;
+    left: 10px;
+    /* position: relative; */
+    margin-top: 20px;
+    margin: 30px;
+    top: 20px;
+    text-align: center;
+    display: block;
+}
+#heading2{
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    left: 10px;
+    margin-top: 20px;
+    margin: 30px;
+    text-decoration:underline;
+    /* position: relative; */
+    top:40px;
+    text-align:left;
+}
+/* content */
+.imgb{
+    width: 15%;
+    margin-right:40px ;
+}
+
+.book p{
+    width: 50%;
+    margin-bottom: 12px;
+    margin-top: 22px;
+}
+
+.book{
+    display: flex;
+    width:89% ;
+    margin-left: 42px;
+    border: 2px solid black;
+    padding: 21px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+#nonfic{
+    margin-left: 30%;
+    margin-top: 40px;
+}
+#nonficbook{
+    width: 170px;
+    margin-left: 70px;
+}
+#pnf{
+    width: 290px;
+}
+#othbook{
+    width: 260px;
+}
+#othbookh{
+    margin-top:60px ;
+}
+.butt{
+    transition: transform 0.5s ease;
+}
+.butt:hover{
+    transform: scale(1.0999);
+ 
 }
