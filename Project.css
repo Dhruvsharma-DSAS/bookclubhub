@@ -135,11 +135,11 @@ button{
     left: 47%;
 }
 #l{
-    position: absolute;
+       position: relative;
     bottom: 0px;
     width: 80px;
-    top: 55px;
-    left: 0px;
+    top: -88px;
+    left: -77px
 }
 
 
@@ -325,4 +325,10 @@ color: antiquewhite;
 }
 h3{
     font-family:  'Cinzel Decorative', serif;;
+}
+#h{
+     height: 588px;
+  width: 100%;
+  max-width: 1090px;
+  margin: auto;
 }
